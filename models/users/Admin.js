@@ -10,13 +10,13 @@ class AdminModel {
 		this.AdminModel = BaseUser.discriminator("Admin", adminSchema);
 	}
 
-	async createAdmin(data) {
-		return await this.AdminModel.create(data);
-	}
+	// async createAdmin(data) {
+	// 	return await this.AdminModel.create(data);
+	// }
 
-	async adminExists(data) {
-		return await this.AdminModel.find(data);
-	}
+	// async adminExists(data) {
+	// 	return await this.AdminModel.find(data);
+	// }
 
 }
 
